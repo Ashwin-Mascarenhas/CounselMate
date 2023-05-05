@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background-color: #0A306C;
+
+}
+
+/* navbar styling */
+
+a {
+    text-decoration: none;
+    color: #FAFAFA;
+    font-size: 1.1em;
+}
+
+
+.nav{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #0A306C;
+    font-weight: 400;
+    text-align: center;
+}
+.nav-ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.links li,
+.nav-ul li {
+    display: inline-block;
+    align-items: center;
+    
+}
+.nav-ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.nav-hover:hover {
+    color:  #E8BC5A;
+    border-bottom:  #E8BC5A solid;
+    padding-bottom: 4px;
+    transition: 1.5s ease;
+    
+}
+.nav-mover:hover {
+    color:  #e01919;
+    border-bottom:  #151411 solid;
+    padding-bottom: 4px;
+    transition: 1.5s ease;
+    
+}
+.links,
+.nav-ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    
+    
+
+}
+.logo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    color: #FAFAFA;
+    letter-spacing: 2px;
+
+}
+
+.you{
+    color: #E8BC5A;
+}
+.btn{
+    color: #E8BC5A;
+    padding: .75em;
+    border-radius: 40px;
+    font-weight: 500;
+    font-size: 1.3em;
+    
+    letter-spacing: 3px;
+}
+.btn:hover{
+    color: #FAFAFA;
+    background-color: #E8BC5A;
+    transition: 1.5s ease-in;
+}
+
+/* css ending */
+
+.image img{
+width: 100%; 
+height: 20%;
+}
+
+.image-mental-health{
+    /* background-image: url("../images/mental-health-gff8f8289c_1920.jpg"); */
+    width: 100%;
+    height: 80vh;
+    margin-bottom: 2em;
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* background-size: cover; */
+}
+
+.image-mental-health img {
+    width: 100%;
+    max-height: 100%;
+}
+
+.anxiety-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(245, 245, 245);
+    width: 80%;
+    /* height: 80vh; */
+    margin: auto;
+    align-items: center;
+}
+.content {
+    background-color: #0A306C;
+    margin-top: 1em;
+    padding: 2em;
+    flex: 3;
+    border-radius: 10px;
+    color: whitesmoke;
+}
+
+.border-bottom-cent {
+    margin-top: .1em;
+    width: 15%;
+    height: 4px;
+    background-color: #E8BC5A;
+    margin-bottom: .2em;
+}
+
+.anxiety-container .image {
+    flex: 1;
+    margin-left: 5em;
+}
+
+.container .heading {
+text-align: center;
+padding: 0 20px 20px;
+}
+
+.container .heading h1 {
+background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+width: fit-content;
+padding: 10px;
+margin: auto;
+margin-bottom: 1em;
+border-radius: 50px;
+box-shadow: 1px 1px 8px
+}
+
+.importance {
+    margin: auto;
+    padding-left: 5em;
+    color: black;
+    width: 40%;
+
+}
+
+.importance h2 {
+text-align: center;
+padding: 10px;
+}
+
+.importance ul li {
+    /* background-color: #0A306C; */
+    margin-left: 1.6em;
+}
+.mental-pics{
+    display: flex;
+    width: 80%;
+    margin:5vh auto;
+    justify-content: space-between;
+    /* height: 50vh; */
+    /* margin-top: 10vh;
+    margin-bottom: 10vh; */
+
+}
+
+.mental-pics .image1-2 {
+display: flex;
+width: 40%;
+}
+
+.mental-pics .image2{
+    height: 80%;
+    display: flex;
+    margin-top: 9%;
+    margin-left: 1em;
+    /* align-items: flex-end; */
+}
+.mental-pics img{
+    flex: 1;
+    max-width: 100%;
+    max-height: 80%;
+    margin: 2rem;
+}
+
+.depression {
+    font-style: italic;
+    /* font-weight: bold; */
+}
+.depression h3{
+color: black;
+margin-bottom: 1em;
+}
+.depression ol li:nth-child(even) {
+    color: black;
+}
+
+.red-line{
+    background-color: #E8BC5A;
+    width:4px;
+    height: 6vh;
+   margin: auto;
+}
+
+.more {
+    
+    height: 4em;
+    text-align: center;
+    padding: 20px;
+}
+
+.more button {
+    padding: 8px;
+    border-radius: 50px;
+    border: 1px solid grey;
+    color: black;
+    font-weight: bold;
+}
+
+.more button:hover {
+    background-color: white;
+    opacity: 0.8;
+    border: 1px solid red;
+    transition: 2s ease;
+    padding: 12px;
+}
+
+.main-footer {
+display: flex;
+background-color: black;
+padding: 20px;
+justify-content: space-between;
+font-size: 14px;
+}
+
+
+
+.footer-tags {
+    width: 30%;
+display: flex;
+background-color: #2575fc;
+justify-content: space-between;
+}
+
+.footer-tags ul {
+    list-style-type: none;
+    /* background-color: red;
+    padding: 10px;
+}
+
+.first {
+    margin-right: 10%;
+}
+
+.footer-tags ul li {
+    padding: 5px;
+}
+
+.footer-tags ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.footer-quote {
+color: white;
+padding: 12px;
+text-align: end;
+}
+
+.icons {
+    /* background-color: red; */
+    color: rgb(255, 255, 255);
+    display: flex;
+    margin-top: 2.5em;
+    width: 20%;
+    justify-content: space-between;
+}
+.icons i:hover{
+    color: #E8BC5A;
+    
+}
